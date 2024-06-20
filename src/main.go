@@ -40,7 +40,13 @@ func execInput(input string) error {
 func main() {
 	reader := bufio.NewReader(os.Stdin)
 	for {
-		fmt.Print("> ")
+		dir, err := os.Getwd()
+		if err != nil {
+			fmt.Fprintln(os.Stderr, err)
+		}
+
+		fmt.Printf("%s >>> ", dir)
+
 		// read keyboard input
 		input, err := reader.ReadString('\n')
 		if err != nil {
