@@ -12,7 +12,6 @@ After reading the post I extended the shell with some more advanced functionalit
 - [Tech Stack](#TechStack)
 - [Process](#Process)
 - [Learnings](#Learnings)
-- [Improvement](#Improvement)
 - [Running the Project](#RunningtheProject)
 
 ## Features
@@ -21,18 +20,17 @@ After reading the post I extended the shell with some more advanced functionalit
 - Exit shell with exit command
 
 <h2 name="TechStack">Tech Stack</h2>
+
 - Go
 - Some internal Go libraries
 
 ## Process
-It was really easy to follow the blog article, because the author focused on simplicity.
-Of course afterwards, when I started implementing my own features, it was way harder and I had to do some research.
+It was really easy to follow the blog article, because the author focused on simplicity. Of course afterwards, when I started implementing my own features, it was way harder and I had to do some research.
 
 ## Learnings
-I was amazed by how simple a shell could be!
-The shell is one of these very intimidating looking technologies you encounter when you start programming, but now I feel like it can be very simple.
-(Of course my shell is not comparable to zsh/bash feature set!)
+I was amazed by how simple a shell could be!<br />
+The shell is one of these very intimidating looking technologies you encounter when you start programming, but now I feel like it can be very simple. (Of course my shell is not comparable to zsh/bash feature set!)
 
 <h2 name="RunningtheProject">Running the Project</h2>
-You need to have Go installed. Then simple run the following command in the root directory of the project.
+You need to have Go installed. Then simple run the following command in the root directory of the project.<br />
 <code>go run src/main.go</code>
